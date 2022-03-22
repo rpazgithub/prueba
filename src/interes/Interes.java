@@ -23,7 +23,7 @@ public class Interes
         BigDecimal principal = BigDecimal.valueOf(1000.0);
         BigDecimal tasa = BigDecimal.valueOf(0.05);
         
-        System.out.printf("%s%20s\n", "Anio", "Monto en deposito");
+        System.out.printf("%s%20s\n", "Anio", "Monto en deposito para el usuario");
         
         for (int anio = 1; anio <= 10; ++anio)
         {
